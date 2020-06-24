@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Package_Class_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(AND(NOT(Is_Using_Packaged_Code_For_Batch_PE__c),ISBLANK(Extended_Class_For_Batch_PE__c)),AND(NOT(Is_Using_Packaged_Code_For_Custom_PE__c),ISBLANK(Extended_Class_For_Custom_PE__c)),AND(NOT(Is_Using_Packaged_Code_For_Flow_PE__c),ISBLANK(Extended_Class_For_Flow_PE__c)))</errorConditionFormula>
+    <errorMessage>Please provide the class name if not using the package default class.</errorMessage>
+</ValidationRule>

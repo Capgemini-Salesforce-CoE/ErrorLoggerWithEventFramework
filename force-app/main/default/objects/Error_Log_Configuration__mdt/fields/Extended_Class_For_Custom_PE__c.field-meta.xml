@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Extended_Class_For_Custom_PE__c</fullName>
+    <description>This class name can be implemented to write own custom logic to override the existing one with Extended class for Custom Platform Event</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>This class name can be implemented to write own custom logic to override the existing one with Extended class for Custom Platform Event</inlineHelpText>
+    <label>Extended Class For Custom PE</label>
+    <length>200</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

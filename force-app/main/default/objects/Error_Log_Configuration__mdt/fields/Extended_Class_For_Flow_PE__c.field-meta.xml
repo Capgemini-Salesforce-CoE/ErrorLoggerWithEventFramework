@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Extended_Class_For_Flow_PE__c</fullName>
+    <description>This class name can be implemented to write own custom logic to override the existing one with Extended class for FlowExecutionErrorEvent</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>This class name can be implemented to write own custom logic to override the existing one with Extended class for FlowExecutionErrorEvent</inlineHelpText>
+    <label>Extended Class For Flow PE</label>
+    <length>200</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>
