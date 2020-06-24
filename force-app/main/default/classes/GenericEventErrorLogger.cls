@@ -59,11 +59,7 @@ public inherited sharing class GenericEventErrorLogger {
         }              
         return recordIds;
     }
-    /**********************************************************************************************
-    * @Author:      Ranjan Singh 
-    * @Date:        10th Jan 2020
-    * @Description: This method return the limit snapshot consumed in synchronous transaction.
-    ***********************************************************************************************/    
+    
     public static String getLimitDetails()
     {
         String queryLimit = ApplicationConstant.NUMBER_OF_SOQL + Limits.getQueries() + ApplicationConstant.SLASH + Limits.getLimitQueries();
